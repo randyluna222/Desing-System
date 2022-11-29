@@ -1,0 +1,32 @@
+.text {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  place-items: center;
+  margin-left: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  &__title {
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+  &__semi {
+    font-weight: 900;
+    font-size: 2rem;
+  }
+  &__regular {
+    font-weight: 700;
+    font-size: 1.25rem;
+  }
+  &__medium {
+    font-weight: 600;
+    font-size: 1.25rem;
+  }
+  &__bottom {
+    font-weight: 500;
+    font-size: 0.9375rem;
+  }
+
+  &__bold {
+    padding-right: 100px;
+  }
+}
