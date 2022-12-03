@@ -1,0 +1,8 @@
+.block-cars {
+  display: flex;
+}
+.btn {
+  &:hover {
+    color: #C37500;
+  }
+}

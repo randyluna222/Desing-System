@@ -1,0 +1,36 @@
+.port{
+  display: flex;
+  margin: 90px 0px;
+}
+
+
+.redes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 60px;
+  left: 40px;
+}
+
+.newCar{
+  display: flex;
+  margin: 90px 0px;
+}
+
+.bg-mode {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  padding: 60px 60px;
+  &:after {
+    content: "";
+    background-color: #B63636;
+    width: 100px;
+    height: 200px;
+    z-index: -1;
+    position: absolute;
+    top: 45px;
+    left: 60px;
+  }
+}

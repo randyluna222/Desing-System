@@ -1,0 +1,18 @@
+.foot-2 {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: center;
+  height: 395px;
+  background-color: #b63636;
+
+  &__title {
+    color: #f5f5f5;
+    font-size: 0.9375rem; // 15px
+    font-weight: 500;
+  }
+
+  &__principal {
+    font-size: 1.125rem; //18px
+  }
+}
