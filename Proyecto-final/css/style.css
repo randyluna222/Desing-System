@@ -32,9 +32,28 @@
 .block-mode-three {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 40px;
   text-align: center;
-  margin: 70px 70px 70px;
+  margin: 40px 40px 40px;
+}
+.block-mode-three__square {
+  width: 300px;
+}
+
+.bg-mode {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  padding: 60px 60px;
+}
+.bg-mode:after {
+  content: "";
+  background-color: #b63636;
+  width: 100px;
+  height: 200px;
+  z-index: -1;
+  position: absolute;
+  top: 45px;
 }
 
 .foot-2 {
@@ -159,22 +178,6 @@ footer {
   z-index: -1;
   position: absolute;
   top: 25px;
-}
-
-.bg-mode {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  position: relative;
-  padding: 60px 60px;
-}
-.bg-mode:after {
-  content: "";
-  background-color: #b63636;
-  width: 100px;
-  height: 200px;
-  z-index: -1;
-  position: absolute;
-  top: 45px;
 }
 
 .info-2 {
