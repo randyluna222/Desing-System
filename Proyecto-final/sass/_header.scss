@@ -1,0 +1,27 @@
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px 0px 50px 0px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 55px 40px 40px 0px;
+
+  &__link {
+    color: #f5f5f5;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  &__link:hover {
+    color: #c37500;
+  }
+}
+
+.material-symbols-outlined {
+  color: rgb(227, 227, 227);
+}
