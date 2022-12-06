@@ -1,0 +1,261 @@
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px 0px 50px 0px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 55px 40px 40px 0px;
+}
+.menu__link {
+  color: #f5f5f5;
+  text-decoration: none;
+  font-size: 20px;
+}
+.menu__link:hover {
+  color: #c37500;
+}
+
+.material-symbols-outlined {
+  color: rgb(227, 227, 227);
+}
+
+.text__white {
+  color: #f5f5f5;
+}
+.text__red {
+  color: #b63636;
+}
+.text__size {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.text__center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text__tec {
+  font-size: 1.25rem;
+  width: 500px;
+}
+.text__img {
+  width: 400px;
+  height: 300px;
+}
+.text__h1 {
+  width: 400px;
+  font-size: 2rem;
+}
+.text__desc {
+  width: 160px;
+}
+
+.bg-red {
+  position: relative;
+  padding: 60px 0;
+}
+.bg-red:after {
+  content: "";
+  background-color: #b63636;
+  width: 84px;
+  height: 116px;
+  z-index: -1;
+  position: absolute;
+  top: 25px;
+}
+
+.info-2 {
+  padding: 50px 50px 50px 0px;
+  height: 400px;
+  background-image: url(../img/calle.svg);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  gap: 3.125rem;
+}
+
+.block-cars {
+  margin-top: 100px;
+  margin-bottom: 150px;
+  display: grid;
+  place-content: center;
+  place-items: center;
+  grid-template-columns: 25% 25% 25%;
+  gap: 100px;
+}
+
+.btn:hover {
+  color: #c37500;
+}
+
+.block-mode {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  margin-top: 100px;
+}
+.block-mode__border {
+  border: solid #c37500 1px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px 20px 20px;
+}
+.block-mode__size {
+  width: 300px;
+}
+
+.block-mode-second {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 30px 30px 30px;
+  width: 830px;
+  padding-left: 230px;
+}
+
+.block-deportivo {
+  padding-left: 400px;
+  width: 600px;
+}
+
+.block-mode-three {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  text-align: center;
+  margin: 40px 40px 40px;
+}
+.block-mode-three__square {
+  width: 300px;
+}
+
+.bg-mode {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  padding: 60px 60px;
+}
+.bg-mode:after {
+  content: "";
+  background-color: #b63636;
+  width: 100px;
+  height: 200px;
+  z-index: -1;
+  position: absolute;
+  top: 45px;
+}
+
+.btn {
+  background-color: transparent;
+  border: solid 2px #c37500;
+  border-radius: 18px;
+  padding: 10px 5px 5px;
+  color: #f5f5f5;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "Yantramanav", sans-serif;
+  background-color: #141313;
+}
+
+footer {
+  max-width: 100%;
+}
+
+.foot-2 {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: center;
+  height: 395px;
+  background-color: #b63636;
+}
+.foot-2__title {
+  color: #f5f5f5;
+  font-size: 0.9375rem;
+  font-weight: 500;
+}
+.foot-2__principal {
+  font-size: 1.125rem;
+}
+
+/*Resposive pag garage*/
+@media screen and (max-width: 900px) {
+  body {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .block-cars {
+    display: grid;
+    grid-template-columns: 35% 35%;
+  }
+  .foot-2 {
+    display: block;
+    text-align: center;
+    padding-top: 40px;
+  }
+}
+@media screen and (max-width: 500px) {
+  body {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .block-cars {
+    display: block;
+  }
+  .foot-2 {
+    display: block;
+    text-align: center;
+    padding-top: 40px;
+  }
+}
+/*Resposive pag tecnologia*/
+@media screen and (max-width: 900px) {
+  .info-2 {
+    width: 94%;
+    height: 100%;
+    display: grid;
+  }
+  .block-mode-second {
+    width: 40%;
+  }
+  .block-deportivo {
+    width: 40%;
+    padding-left: 260px;
+  }
+  .bg-mode {
+    padding-left: 350px;
+  }
+  .block-mode__img {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .bg-mode {
+    padding-left: 150px;
+  }
+  .block-mode__img {
+    width: 75%;
+  }
+  .block-mode-second {
+    width: 50%;
+    padding-left: 70px;
+  }
+  .block-deportivo {
+    width: 50%;
+    padding-left: 100px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

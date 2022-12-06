@@ -1,11 +1,37 @@
 a {
   text-decoration: none;
 }
+
 body {
-  background-color: #c29655;
+  margin: 0 auto;
   font-family: "Yantramanav", sans-serif;
+  background-color: #141313;
 }
 
-ul {
-  list-style: none;
+footer {
+  max-width: 100%;
 }
+
+
+
+//BUTTOM
+@mixin button {
+  background-color: transparent;
+  border: solid 2px #C37500;
+  border-radius: 18px;
+  padding: 10px 5px 5px;
+  color: #F5F5F5;
+}
+.btn {
+  @include button();
+}
+
+.btn {
+  &:hover {
+    color: #C37500;
+  }
+}
+
+
+
+

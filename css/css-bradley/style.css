@@ -1,0 +1,245 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px 0px 50px 0px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 55px 40px 40px 0px;
+}
+.menu__link {
+  color: #f5f5f5;
+  text-decoration: none;
+  font-size: 20px;
+}
+.menu__link:hover {
+  color: #c37500;
+}
+
+.material-symbols-outlined {
+  color: rgb(227, 227, 227);
+}
+
+.btn {
+  background-color: transparent;
+  border: solid 2px #c37500;
+  border-radius: 18px;
+  padding: 10px 5px 5px;
+  color: #f5f5f5;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "Yantramanav", sans-serif;
+  background: black;
+}
+
+footer {
+  max-width: 100%;
+}
+
+.life_style {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 500px) {
+  .life_style {
+    display: block;
+  }
+  .life_style .social_media {
+    display: flex;
+  }
+  .life_style .image img {
+    width: 100%;
+    margin-bottom: -110px;
+  }
+  .life_style body {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .life_style .foot-2 {
+    display: block;
+    text-align: center;
+    padding-top: 40px;
+  }
+  .life_style .social_media {
+    width: 10%;
+    padding-left: -100px;
+  }
+}
+
+.social_media {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  height: 280px;
+  padding: 60px;
+}
+.title h1 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+.title h2 {
+  margin-bottom: 15px;
+}
+
+.bg-redTop {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  padding: 60px 60px;
+}
+.bg-redTop:after {
+  content: "";
+  background-color: #b63636;
+  width: 110px;
+  height: 60px;
+  z-index: -1;
+  position: absolute;
+  top: 45px;
+  right: 350px;
+}
+
+.interior {
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and (max-width: 768px) {
+  .interior {
+    display: block;
+    width: 100%;
+  }
+  .interior img {
+    width: 100%;
+  }
+}
+
+.text_interior {
+  width: 600px;
+}
+.text_interior p {
+  margin: 25px;
+}
+.text_interior h2 {
+  margin: 25px;
+  font-size: 50px;
+  background: red;
+  width: 20%;
+}
+
+.autos {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 768px) {
+  .autos {
+    display: block;
+  }
+}
+
+.title2 {
+  display: flex;
+  justify-content: space-around;
+}
+.title2 .subtitle_cars:hover {
+  color: #c37500;
+}
+.title2 .subtitle_cars {
+  cursor: pointer;
+}
+
+.text__center {
+  text-align: center;
+}
+.text__center h2 {
+  margin-bottom: 10px;
+}
+.text__center p {
+  margin-bottom: 20px;
+}
+.text__center .btn:hover {
+  color: #c37500;
+}
+
+.new_mazda {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 700px;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 768px) {
+  .new_mazda {
+    display: block;
+    width: 100%;
+  }
+  .new_mazda img {
+    margin-bottom: -110px;
+    width: 100%;
+  }
+}
+
+.title3 {
+  margin-top: 100px;
+  height: 200px;
+  padding: 10px;
+  background: red;
+  font-size: 32px;
+}
+.title3 h1 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+.title3 h2 {
+  margin-bottom: 15px;
+}
+
+.foot-2 {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: center;
+  height: 395px;
+  background-color: #b63636;
+}
+@media screen and (max-width: 768px) {
+  .foot-2 {
+    display: block;
+    height: 150px;
+    text-align: center;
+  }
+  .foot-2 .foot-2 {
+    text-align: center;
+  }
+  .foot-2 .foot-2 address {
+    padding-bottom: 50px;
+  }
+}
+.foot-2__title {
+  color: #f5f5f5;
+  font-size: 0.9375rem;
+  font-weight: 500;
+}
+.foot-2__principal {
+  font-size: 1.125rem;
+}
+
+/*# sourceMappingURL=style.css.map */

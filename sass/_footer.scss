@@ -1,0 +1,26 @@
+//Mixin
+@mixin flex_align {
+  display: flex;
+  align-items: center;
+}
+//Varaibles
+$color_vino: #b63636;
+$color_white: #f5f5f5;
+
+.foot-2 {
+  @include flex_align;
+  gap: 50px;
+  justify-content: center;
+  height: 395px;
+  background-color: $color_vino;
+
+  &__title {
+    color: $color_white;
+    font-size: 0.9375rem; // 15px
+    font-weight: 500;
+  }
+
+  &__principal {
+    font-size: 1.125rem; //18px
+  }
+}
