@@ -1,0 +1,59 @@
+.block-mode {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  margin-top: 100px;
+
+  &__border {
+    border: solid #c37500 1px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 20px 20px;
+  }
+  &__size {
+    width: 300px;
+  }
+}
+
+.block-mode-second {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 30px 30px 30px;
+  width: 830px;
+  padding-left: 230px;
+}
+
+.block-deportivo {
+  padding-left: 400px;
+  width: 600px;
+}
+
+.block-mode-three {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  text-align: center;
+  margin: 40px 40px 40px;
+
+  &__square {
+    width: 300px;
+  }
+}
+
+.bg-mode {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  padding: 60px 60px;
+  &:after {
+    content: "";
+    background-color: #b63636;
+    width: 100px;
+    height: 200px;
+    z-index: -1;
+    position: absolute;
+    top: 45px;
+  }
+}

@@ -1,0 +1,80 @@
+/*Resposive pag garage*/
+
+@media screen and (max-width: 900px) {
+  body {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .block-cars {
+    display: grid;
+    grid-template-columns: 35% 35%;
+  }
+
+  .foot-2 {
+    display: block;
+    text-align: center;
+    padding-top: 40px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .block-cars {
+    display: block;
+  }
+  .foot-2 {
+    display: block;
+    text-align: center;
+    padding-top: 40px;
+  }
+}
+
+/*Resposive pag tecnologia*/
+
+@media screen and (max-width: 900px) {
+  .info-2 {
+    width: 94%;
+    height: 100%;
+    display: grid;
+  }
+
+  .block-mode-second {
+    width: 40%;
+  }
+
+  .block-deportivo {
+    width: 40%;
+    padding-left: 260px;
+  }
+
+  .bg-mode {
+    padding-left: 350px;
+  }
+
+  .block-mode__img {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .bg-mode {
+    padding-left: 150px;
+  }
+
+  .block-mode__img {
+    width: 75%;
+  }
+
+  .block-mode-second {
+    width: 50%;
+    padding-left: 70px;
+  }
+
+  .block-deportivo {
+    width: 50%;
+    padding-left: 100px;
+  }
+}
