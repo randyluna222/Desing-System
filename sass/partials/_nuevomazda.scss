@@ -1,0 +1,29 @@
+.new_mazda {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 700px;
+  margin-bottom: 50px;
+  @media screen and (max-width: 768px) {
+    display: block;
+    width: 100%;
+    img {
+      margin-bottom: -110px;
+      width: 100%;
+    }
+  }
+}
+.title3 {
+  margin-top: 100px;
+  height: 200px;
+  padding: 10px;
+  background: red;
+  font-size: 32px;
+  h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    margin-bottom: 15px;
+  }
+}
