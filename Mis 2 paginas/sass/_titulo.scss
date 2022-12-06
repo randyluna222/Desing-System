@@ -1,10 +1,15 @@
+//Variables
+$color_vino: #b63636;
+$color_white: #f5f5f5;
+
+
 .text {
   margin-bottom: 50px;
   &__white {
-    color: #f5f5f5;
+    color: $color_white;
   }
   &__red {
-    color: #b63636;
+    color: $color_vino;
   }
 
   &__size {
@@ -28,6 +33,7 @@
 .info-main{
   padding-left: 210px;
   background-image: url(../img/Background-Icy-Mountains-Transparent-Background\ 1.png);
+  background-size: 100%;
   opacity: 6.6;
   background-repeat: no-repeat;
   background-position: center;
@@ -58,7 +64,7 @@
     max-width: 100%;
     width: 75%;
     height: 95.9%;
-    background: #b63636;
+    background: $color_vino;
     z-index: -1;
     position: absolute;
     top: 23px;
